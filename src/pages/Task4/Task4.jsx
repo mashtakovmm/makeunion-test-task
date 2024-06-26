@@ -41,6 +41,7 @@ const Task4 = () => {
                                 login={user.username}
                                 email={user.email}
                                 tele={user.phone}
+                                id={user.id}
                             />
                         ))}
                     </ul>

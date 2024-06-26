@@ -16,4 +16,10 @@ header {
 .nav-list li {
     display: inline-flex;
     margin-right: 10px;
+    font-weight: bold;
+}
+
+/* default class for active NavLink */
+.active {
+    color: #287094;
 }

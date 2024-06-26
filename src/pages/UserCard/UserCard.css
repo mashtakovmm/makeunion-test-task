@@ -1,0 +1,29 @@
+.user-card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card-large {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    width: 500px;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-contacts {
+    display: flex;
+    flex-direction: column;
+}

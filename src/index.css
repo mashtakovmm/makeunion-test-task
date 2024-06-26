@@ -47,6 +47,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color:#296888;
+}
+
 #icon {
     width: 100%;
     height: 100%;

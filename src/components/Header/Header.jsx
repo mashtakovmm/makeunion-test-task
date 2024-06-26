@@ -8,7 +8,7 @@ const Header = () => {
             <nav>
                 <ul className='nav-list'>
                     <li>
-                        <NavLink to={"/task1"}>Task 1</NavLink>
+                        <NavLink to={"/task1" }>Task 1</NavLink>
                     </li>
                     <li>
                         <NavLink to={"/task2"}>Task 2</NavLink>
