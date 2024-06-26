@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { AiOutlineShopping, AiOutlineContacts, AiOutlineHome, AiOutlineInfoCircle } from "react-icons/ai";
 
 import "./UserCard.css"
+import pfpPlaceholder3 from '../../assets/pfp-placeholder3.jpg';
+
 
 const UserCard = () => {
     const { id } = useParams();
@@ -32,9 +34,9 @@ const UserCard = () => {
                     <p>Loading...</p>
                 ) : (
                     <div className='user-card-large'>
-                        <img src="/pfp-placeholder3.jpg" alt="user profile picture" className='user-pfp show-in-mobile' />
+                        <img src={pfpPlaceholder3} alt="user profile picture" className='user-pfp show-in-mobile' />
                         <section className='user-card-header'>
-                            <img src="/pfp-placeholder3.jpg" alt="user profile picture" className='user-pfp hide-in-mobile' />
+                            <img src={pfpPlaceholder3} alt="user profile picture" className='user-pfp hide-in-mobile' />
                             <div>
                                 <h2>
                                     {data.name}
