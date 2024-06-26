@@ -80,7 +80,7 @@ const Task2 = () => {
                                 onAddNewTask()
                             }
                         }} />
-                    <button onClick={onAddNewTask} className='input-button'><span className='hide-in-mobile'>Добавить</span></button>
+                    <button onClick={onAddNewTask} className='input-button'><AiOutlineFileAdd id='add-icon'/><span className='hide-in-mobile'>Добавить</span></button>
                 </div>
                 <ul className='tasks-containter'>
                     {
