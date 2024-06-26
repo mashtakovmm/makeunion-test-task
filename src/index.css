@@ -58,8 +58,24 @@ a:hover {
     height: 100%;
 }
 
+.show-in-mobile {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .hide-in-mobile {
         display: none;
     }
+
+    .show-in-mobile{ 
+        display: inline-block;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .decrease-in-mobile {
+        font-size: 12px;
+    }
+
 }

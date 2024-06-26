@@ -27,3 +27,15 @@
     display: flex;
     flex-direction: column;
 }
+
+.bio-text {
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 400px) {
+    .user-card-large {
+         width: 250px;
+     }
+
+ }
+ 

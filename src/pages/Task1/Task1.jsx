@@ -13,7 +13,7 @@ const Task1 = () => {
 
     return (
         <>
-            <main className='user-card-container'>
+            <main className='user-card-container decrease-in-mobile'>
                 <div className='user-card'>
                     <section className='user-card-section user-card-header'>
                         <img src="pfp-placeholder.jpg" alt="user profile picture" className='user-pfp' />

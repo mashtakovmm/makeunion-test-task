@@ -27,13 +27,14 @@ const UserCard = () => {
 
     return (
         <>
-            <main className='user-card-main'>
+            <main className='user-card-main '>
                 {isLoading ? (
                     <p>Loading...</p>
                 ) : (
                     <div className='user-card-large'>
+                        <img src="/pfp-placeholder3.jpg" alt="user profile picture" className='user-pfp show-in-mobile' />
                         <section className='user-card-header'>
-                            <img src="/pfp-placeholder3.jpg" alt="user profile picture" className='user-pfp' />
+                            <img src="/pfp-placeholder3.jpg" alt="user profile picture" className='user-pfp hide-in-mobile' />
                             <div>
                                 <h2>
                                     {data.name}
@@ -48,7 +49,7 @@ const UserCard = () => {
                                 <AiOutlineInfoCircle />
                                 <h2>About me:</h2>
                             </div>
-                            <p>
+                            <p className='bio-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco
