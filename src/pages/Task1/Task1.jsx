@@ -13,21 +13,6 @@ const Task1 = () => {
 
     return (
         <>
-            <header>
-                <nav>
-                    <ul className='nav-list'>
-                        <li>
-                            1
-                        </li>
-                        <li>
-                            2
-                        </li>
-                        <li>
-                            3
-                        </li>
-                    </ul>
-                </nav>
-            </header>
             <main className='user-card-container'>
                 <div className='user-card'>
                     <section className='user-card-section user-card-header'>

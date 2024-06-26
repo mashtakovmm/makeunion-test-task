@@ -57,21 +57,6 @@ const Task2 = () => {
 
     return (
         <>
-            <header>
-                <nav>
-                    <ul className='nav-list'>
-                        <li>
-                            Task 1
-                        </li>
-                        <li>
-                            Task 2
-                        </li>
-                        <li>
-                            Task 3
-                        </li>
-                    </ul>
-                </nav>
-            </header>
             <main className='todo-list-container'>
                 <div className='input-container'>
                     <input type="text" name="todoInput" id="todo-input" placeholder='Добавить задачу...' ref={todoInputRef}
