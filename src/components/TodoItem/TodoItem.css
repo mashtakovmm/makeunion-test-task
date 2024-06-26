@@ -1,0 +1,52 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width:100%;
+    padding: 10px;
+    align-items: center;
+    justify-content:center;
+    text-align: left;
+    gap: 10px;
+    max-width: 500px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    border-bottom: 2px solid #024461;
+}
+
+.task p {
+    flex: 90%;
+    cursor: pointer;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.task .complete-icon {
+    flex: 5%
+}
+
+.task button {
+    flex: 5%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pending-task {
+    text-decoration: none;
+}
+
+.pending-task #check-icon{
+    display: none;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.completed-task p {
+    opacity: 0.5;
+}
