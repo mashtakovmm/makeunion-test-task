@@ -19,6 +19,7 @@ const router = createBrowserRouter(
             <Route path='/task4/:id' element={<UserCard />}></Route>
         </Route>
     )
+    , {basename: '/makeunion-test-task'}
 )
 
 function App() {
